@@ -1,0 +1,35 @@
+{
+  "package": "LANywhereSelfhost",
+  "info": {
+    "title": "RoomCircuit",
+    "author": "LANywhere contributors",
+    "category": "tool",
+    "version": "0.8.8",
+    "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost",
+    "license": "GPLv2",
+    "description": "Switch Local Wireless over the internet",
+    "details": "RoomCircuit (formerly LANywhere Self-host) brings Switch Local Wireless online with room browsing, node tests, and scheduling. Requires Atmosphère. Shares the ldn_mitm module ID. Install one and restart Atmosphère.\\n\\nAI use: Co-written with AI. AI also used for: description text."
+  },
+  "assets": [
+    {
+      "type": "icon",
+      "url": "icon.png"
+    },
+    {
+      "type": "banner",
+      "url": "screen.png"
+    },
+    {
+      "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost/releases/download/v0.8.8/switch-online-0.8.8-sd.zip",
+      "type": "zip",
+      "zip": [
+        {
+          "path": "/*/**/*",
+          "dest": "/",
+          "type": "update"
+        }
+      ]
+    }
+  ],
+  "changelog": "Fixes SD card preparation during in-app updates."
+}
