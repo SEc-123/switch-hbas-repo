@@ -4,7 +4,7 @@
     "title": "RoomCircuit",
     "author": "LANywhere contributors",
     "category": "tool",
-    "version": "0.8.8",
+    "version": "0.8.9",
     "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost",
     "license": "GPLv2",
     "description": "Switch Local Wireless over the internet",
@@ -20,7 +20,7 @@
       "url": "screen.png"
     },
     {
-      "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost/releases/download/v0.8.8/switch-online-0.8.8-sd.zip",
+      "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost/releases/download/v0.8.9/switch-online-0.8.9-sd.zip",
       "type": "zip",
       "zip": [
         {
@@ -31,5 +31,5 @@
       ]
     }
   ],
-  "changelog": "Fixes SD card preparation during in-app updates."
+  "changelog": "OLED black theme and improved room discovery and node selection."
 }
