@@ -4,11 +4,11 @@
     "title": "RoomCircuit",
     "author": "LANywhere contributors",
     "category": "tool",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost",
     "license": "GPLv2",
     "description": "Switch Local Wireless over the internet",
-    "details": "RoomCircuit brings Switch Local Wireless online with room browsing, custom nodes, latency checks, and scheduling. Requires Atmosphère; it replaces the ldn_mitm module with the same ID. Restart after installation.\\n\\nSome code was generated with AI.",
+    "details": "RoomCircuit brings Switch Local Wireless online with room browsing, custom nodes, and scheduling. Choose servers from the Ultrahand overlay; settings are stored in /config/RoomCircuit/. Requires Atmosphère and replaces the ldn_mitm module with the same ID. Restart after installation.\\n\\nSome code was generated with AI.",
     "binary": "/switch/RoomCircuit/RoomCircuit.nro"
   },
   "assets": [
@@ -21,7 +21,7 @@
       "url": "screen.png"
     },
     {
-      "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost/releases/download/v0.9.0/switch-online-0.9.0-sd.zip",
+      "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost/releases/download/v0.9.1/switch-online-0.9.1-sd.zip",
       "type": "zip",
       "zip": [
         {
@@ -32,5 +32,5 @@
       ]
     }
   ],
-  "changelog": "Add custom nodes, remember the selected server, and show server status in the overlay."
+  "changelog": "Choose servers in the Ultrahand overlay and move settings to /config/RoomCircuit/."
 }
