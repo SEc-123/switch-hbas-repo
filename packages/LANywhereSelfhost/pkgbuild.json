@@ -4,11 +4,12 @@
     "title": "RoomCircuit",
     "author": "LANywhere contributors",
     "category": "tool",
-    "version": "0.8.9",
+    "version": "0.9.0",
     "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost",
     "license": "GPLv2",
     "description": "Switch Local Wireless over the internet",
-    "details": "RoomCircuit (formerly LANywhere Self-host) brings Switch Local Wireless online with room browsing, node tests, and scheduling. Requires Atmosphère. Shares the ldn_mitm module ID. Install one and restart Atmosphère.\\n\\nAI use: Co-written with AI. AI also used for: description text."
+    "details": "RoomCircuit brings Switch Local Wireless online with room browsing, custom nodes, latency checks, and scheduling. Requires Atmosphère; it replaces the ldn_mitm module with the same ID. Restart after installation.\\n\\nSome code was generated with AI.",
+    "binary": "/switch/RoomCircuit/RoomCircuit.nro"
   },
   "assets": [
     {
@@ -20,7 +21,7 @@
       "url": "screen.png"
     },
     {
-      "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost/releases/download/v0.8.9/switch-online-0.8.9-sd.zip",
+      "url": "https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost/releases/download/v0.9.0/switch-online-0.9.0-sd.zip",
       "type": "zip",
       "zip": [
         {
@@ -31,5 +32,5 @@
       ]
     }
   ],
-  "changelog": "OLED black theme and improved room discovery and node selection."
+  "changelog": "Add custom nodes, remember the selected server, and show server status in the overlay."
 }
